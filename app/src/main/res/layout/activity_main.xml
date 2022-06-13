@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F42516"
+            android:text="Info side"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="left|center"
+            android:layout_weight="1"
+            android:hint="Enter your first name"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textSize="20dp"
+
+            ></EditText>
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="left|center"
+            android:layout_weight="1"
+            android:hint="Enter your last name"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textSize="20dp"></EditText>
+
+
+        <EditText
+            android:id="@+id/profession"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="left|center"
+            android:layout_weight="1"
+            android:hint="Enter your profession"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textSize="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/Contract"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="left|center"
+            android:layout_weight="1"
+            android:hint="Enter your Contract Number"
+            android:inputType="phone"
+            android:textColor="#000"
+            android:textSize="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="left|center"
+            android:layout_weight="1"
+            android:hint="Enter your Address"
+            android:inputType=""
+            android:textColor="#000"
+            android:textSize="20dp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click"
+            android:textAlignment="center"
+            android:background="#D1453B"
+            android:id="@+id/Butto"></Button>
+    </LinearLayout>
+
+</LinearLayout>
